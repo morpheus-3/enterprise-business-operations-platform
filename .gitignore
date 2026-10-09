@@ -1,0 +1,19 @@
+target/
+.env
+__pycache__/
+.pytest_cache/
+.local-tokens.json
+
+# Local credentials, runtime state and generated files
+.env*
+!.env.example
+.local-tokens.json
+*.log
+*.db
+*.mv.db
+*.trace.db
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+Thumbs.db
